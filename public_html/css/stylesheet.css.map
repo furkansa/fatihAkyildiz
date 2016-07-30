@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;EAIE;AACF;;;EAGE;ACRF;;;;EAIE;AACF;;;EAGE;ACRF;;;;EAIE;AACF;;;EAGE",
+"sources": ["../scss/stylesheet.scss","../scss/partials/_typography.scss","../scss/partials/_colors.scss"],
+"names": [],
+"file": "stylesheet.css"
+}
