@@ -230,7 +230,6 @@ and open the template in the editor.
         li{
             position:relative;
             a{
-                width: 100%;
                 color: $menu_black;
                 text-decoration: none;
                 display: block;
@@ -256,17 +255,16 @@ and open the template in the editor.
                 left:0;
                 margin: 0;
                 padding: 0;
-                border: 1px solid $dark_gray;
 
                 li:hover:after{
                     display: none;
                 }
 
                 li{
-                    min-width: 275px;
                     padding: 0;
                     margin: 0;
                     text-align: left;
+                    width: auto;
 
                     a{
                         position: relative;
@@ -291,21 +289,7 @@ and open the template in the editor.
 
             }
 
-            &:hover > .dropDownMenu{
-                display: block;
-            }
-
-
         }
-
-
-
-
-        .active{
-            background: lighten($menu_black,65%);
-        }
-
-
 
     }
 

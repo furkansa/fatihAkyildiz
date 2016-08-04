@@ -238,7 +238,6 @@ and open the template in the editor.
     .mobileNav ul li {
       position: relative; }
       .mobileNav ul li a {
-        width: 100%;
         color: #4a4732;
         text-decoration: none;
         display: block;
@@ -257,15 +256,14 @@ and open the template in the editor.
         top: 100%;
         left: 0;
         margin: 0;
-        padding: 0;
-        border: 1px solid #f5f0f0; }
+        padding: 0; }
         .mobileNav ul li .dropDownMenu li:hover:after {
           display: none; }
         .mobileNav ul li .dropDownMenu li {
-          min-width: 275px;
           padding: 0;
           margin: 0;
-          text-align: left; }
+          text-align: left;
+          width: auto; }
           .mobileNav ul li .dropDownMenu li a {
             position: relative;
             padding: 12px 50px;
@@ -278,10 +276,6 @@ and open the template in the editor.
             .mobileNav ul li .dropDownMenu li:hover a {
               left: 5px;
               color: #a19b74; }
-      .mobileNav ul li:hover > .dropDownMenu {
-        display: block; }
-    .mobileNav ul .active {
-      background: #e9e8de; }
 
 ::-webkit-scrollbar {
   width: 5px;
