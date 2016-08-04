@@ -1,35 +1,28 @@
 /*
-Error: Undefined variable: "$menu_black".
-        on line 32 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainNav.scss
+Error: Undefined variable: "$body_top_border".
+        on line 63 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainNav.scss
 
-27:             float: left;
-28:             margin: 0 13px;
-29:             min-height: 30px;
-30: 
-31:             a{
-32:                 color: $menu_black;
-33:                 text-decoration: none;
-34: 
-35:                 &:hover{
-36:                     color: lighten($menu_black, 20%);
-37:                 }
+58:             content: "";
+59:             position: absolute;
+60:             top: 75%;
+61:             left: 0;
+62:             width: 100%;
+63:             border-bottom: 3.5px solid $body_top_border;
+64:         }
+65: 
+66:         li{
+67:             position: relative;
+68:             float: left;
 
 Backtrace:
-C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainNav.scss:32
+C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainNav.scss:63
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `_perform'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -95,4 +88,4 @@ C:/Ruby23-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$menu_black\".\A         on line 32 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainNav.scss\A \A 27:             float: left;\A 28:             margin: 0 13px;\A 29:             min-height: 30px;\A 30: \A 31:             a{\A 32:                 color: $menu_black;\A 33:                 text-decoration: none;\A 34: \A 35:                 &:hover{\A 36:                     color: lighten($menu_black, 20%);\A 37:                 }"; }
+  content: "Error: Undefined variable: \"$body_top_border\".\A         on line 63 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainNav.scss\A \A 58:             content: \"\";\A 59:             position: absolute;\A 60:             top: 75%;\A 61:             left: 0;\A 62:             width: 100%;\A 63:             border-bottom: 3.5px solid $body_top_border;\A 64:         }\A 65: \A 66:         li{\A 67:             position: relative;\A 68:             float: left;"; }

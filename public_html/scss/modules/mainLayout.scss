@@ -12,6 +12,10 @@ html,body{
     margin: 0;
     padding: 0;
     height: 100%;
+    border-top: 3px solid $body_top_border;
+    font-size: 16px;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .website{
@@ -29,6 +33,10 @@ footer{
 .container{
     width: 960px;
     margin: 0 auto;
+    
+    @media all and (max-width: 959px){
+        width: 100%;
+    }
 }
 
 .row{
