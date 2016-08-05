@@ -3,45 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-//Close NavMenu if click out of menu
-$(document).ready(function () {
-    $('body').on("click touchend", function (e) {
-        if ($(window).width() < 960) {
-            if ($('#mobileNav').is(':visible')) {
-                if (e.target.nodeName === "DIV") {
-                    mobileNavButton();
-                }
-            }
-        }
-    });
+//close NavMenu if clicked out of menu or button
+$('body').on("click touchend", function (e) {
+    if ($(window).width() < 960 && $('#mobileNav').is(':visible') === true && e.target.nodeName === "DIV") {
+        closeMobileNav();
+    }
 });
 
 
 //Close NavMenu if resize
 $(window).resize(function () {
     if ($(window).width() < 960 && $("#mobileNav").is(":visible") === true) {
-        $("#mobileNav").hide();
-        $("#mobileNavButtonI").removeClass("fa-close");
-        $("#mobileNavButtonI").addClass("fa-bars");
+        closeMobileNav();
     }
 });
 
 
 //Toggle NavMenu
 function mobileNavButton() {
-    $("#mobileNav").slideToggle(function () {
-        if ($("#mobileNav").is(":visible") == true) {
-            $("#mobileNavButtonI").removeClass("fa-bars");
-            $("#mobileNavButtonI").addClass("fa-close");
-        } else {
-            $("#mobileNavButtonI").addClass("fa-bars");
-            $("#mobileNavButtonI").removeClass("fa-close");
-        }
-
-    });
+    if ($("#mobileNav").is(":visible") === true) {
+        closeMobileNav();
+    } else {
+        openMobileNav();
+    }
 }
-
 
 //MobileNav Sub Buttons
 function openMobileNavSideBar(val) {
@@ -76,5 +61,24 @@ function openMobileNavSideBar(val) {
     }
 }
 
+function closeAllSubMenus() {
+    $("#womenSubMenu").hide();
+    $("#menSubMenu").hide();
+    $("#childSubMenu").hide();
+}
+
+
+function closeMobileNav() {
+    $('#mobileNav').slideUp();
+    closeAllSubMenus();
+    $("#mobileNavButtonI").removeClass("fa-close");
+    $("#mobileNavButtonI").addClass("fa-bars");
+}
+
+function openMobileNav() {
+    $('#mobileNav').slideDown();
+    $("#mobileNavButtonI").removeClass("fa-bars");
+    $("#mobileNavButtonI").addClass("fa-close");
+}
 
 
