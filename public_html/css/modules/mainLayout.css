@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$body_top_border".
-        on line 15 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainLayout.scss
+        on line 14 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainLayout.scss
 
-10: 
-11: html,body{
-12:     margin: 0;
-13:     padding: 0;
-14:     height: 100%;
-15:     border-top: 3px solid $body_top_border;
-16:     font-size: 16px;
-17:     background: white;
-18:     font-family: 'Open Sans', sans-serif;
-19: }
-20: 
+9: *\/
+10: html,body{
+11:     margin: 0;
+12:     padding: 0;
+13:     height: 100%;
+14:     border-top: 3px solid $body_top_border;
+15:     font-size: 16px;
+16:     background: white;
+17:     font-family: 'Open Sans', sans-serif;
+18: }
+19: 
 
 Backtrace:
-C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainLayout.scss:15
+C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainLayout.scss:14
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
@@ -66,4 +66,4 @@ C:/Ruby23-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$body_top_border\".\A         on line 15 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainLayout.scss\A \A 10: \A 11: html,body{\A 12:     margin: 0;\A 13:     padding: 0;\A 14:     height: 100%;\A 15:     border-top: 3px solid $body_top_border;\A 16:     font-size: 16px;\A 17:     background: white;\A 18:     font-family: 'Open Sans', sans-serif;\A 19: }\A 20: "; }
+  content: "Error: Undefined variable: \"$body_top_border\".\A         on line 14 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainLayout.scss\A \A 9: */\A 10: html,body{\A 11:     margin: 0;\A 12:     padding: 0;\A 13:     height: 100%;\A 14:     border-top: 3px solid $body_top_border;\A 15:     font-size: 16px;\A 16:     background: white;\A 17:     font-family: 'Open Sans', sans-serif;\A 18: }\A 19: "; }
