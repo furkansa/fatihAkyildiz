@@ -54,13 +54,36 @@ and open the template in the editor.
         list-style: none;
         display: inline-block;
 
-        .active:after, li:hover:after{
+        .active:after{
             content: "";
             position: absolute;
             top: 75%;
             left: 0;
             width: 100%;
+            opacity: 1;
             border-bottom: 3.5px solid $body_top_border;
+        }
+
+        li:after{
+            content: "";
+            position: absolute;
+            top: 75%;
+            left: 40%;
+            opacity: 0;
+            width: 20%;
+            border-bottom: 3.5px solid $body_top_border;
+
+            -webkit-transition: all 0.7s;
+            -moz-transition:    all 0.7s;
+            -ms-transition: all 0.7s;
+            -o-transition:  all 0.7s;
+            transition: all 0.7s;
+        }
+
+        li:hover:after{
+            opacity: 1;
+            left: 0;
+            width: 100%;
         }
 
         li{
@@ -73,9 +96,8 @@ and open the template in the editor.
                 color: $menu_black;
                 text-decoration: none;
                 line-height: 28px;
-
                 &:hover{
-                    color: lighten($menu_black, 30%);
+                    color: $body_top_border !important; 
                 }
 
                 img{
@@ -84,7 +106,7 @@ and open the template in the editor.
                     height: auto;
                 }
             }
-
+            
             .dropDownMenu{
                 z-index: 99;
                 display: none;
@@ -120,7 +142,7 @@ and open the template in the editor.
 
                         a{
                             left: 5px;
-                            color: lighten($menu_black, 30%); 
+                            color: $body_top_border;
                         }
                     }
                 }
