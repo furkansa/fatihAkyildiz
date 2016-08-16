@@ -45,7 +45,21 @@ html, body {
   border-top: 3px solid #f70e0e;
   font-size: 16px;
   background: white;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+  @media all and (max-width: 959px) {
+    html ::-webkit-scrollbar, body ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+      background-color: #f70e0e; }
+    html ::-webkit-scrollbar-button:vertical:increment, body ::-webkit-scrollbar-button:vertical:increment {
+      background: #f70e0e; }
+    html ::-webkit-scrollbar-button:vertical:decrement, body ::-webkit-scrollbar-button:vertical:decrement {
+      background: #4a4732; }
+    html ::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb {
+      background: white;
+      height: 5px; } }
 
 .website {
   min-height: 100%;
@@ -294,31 +308,19 @@ and open the template in the editor.
               left: 5px;
               color: #a19b74; }
 
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-  background-color: #f70e0e; }
-
-::-webkit-scrollbar-button:vertical:increment {
-  background: #f70e0e; }
-
-::-webkit-scrollbar-button:vertical:decrement {
-  background: #4a4732; }
-
-::-webkit-scrollbar-thumb {
-  background: white;
-  height: 5px; }
-
 .aboutUs {
   position: relative;
   margin-top: 30px; }
   .aboutUs .container {
-    background: #fafafa;
+    background: #f8f8f8;
     padding: 50px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.15); }
     @media all and (max-width: 959px) {
       .aboutUs .container {
-        padding: 20px; } }
+        padding: 20px;
+        background: #fafafa;
+        box-shadow: none; } }
   .aboutUs h1 {
     position: relative;
     font-family: 'Playfair Display';
@@ -327,7 +329,8 @@ and open the template in the editor.
     font-size: 120%;
     line-height: 160%;
     text-align: center;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    letter-spacing: 0.1em; }
     .aboutUs h1:after {
       content: '';
       position: absolute;
@@ -343,7 +346,8 @@ and open the template in the editor.
     font-size: 95%;
     line-height: 180%;
     text-align: left;
-    color: #666; }
+    color: #666;
+    letter-spacing: 0.02em; }
 
 /*
 To change this license header, choose License Headers in Project Properties.

@@ -15,6 +15,33 @@ html,body{
     font-size: 16px;
     background: white;
     font-family: 'Open Sans', sans-serif;
+    
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    @media all and (max-width: 959px){
+        ::-webkit-scrollbar 
+        {
+            width: 5px;
+            height: 5px;
+            background-color: $body_top_border;
+        }
+
+        ::-webkit-scrollbar-button:vertical:increment 
+            {
+            background: $body_top_border;
+        }
+
+        ::-webkit-scrollbar-button:vertical:decrement 
+            {
+            background: $menu_black;
+        }
+        ::-webkit-scrollbar-thumb
+        {
+            background: white;
+            height:5px;
+        }
+    }
 }
 
 .website{

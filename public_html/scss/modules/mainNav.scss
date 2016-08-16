@@ -297,27 +297,7 @@ and open the template in the editor.
 
 }
 
-::-webkit-scrollbar 
-{
-    width: 5px;
-    height: 5px;
-    background-color: $body_top_border;
-}
 
-::-webkit-scrollbar-button:vertical:increment 
-{
-    background: $body_top_border;
-}
-
-::-webkit-scrollbar-button:vertical:decrement 
-{
-    background: $menu_black;
-}
-::-webkit-scrollbar-thumb
-{
-    background: white;
-    height:5px;
-}
 
 
 

@@ -1,24 +1,38 @@
 /*
 Error: Undefined variable: "$light_gray".
-        on line 6 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\aboutUs.scss
+        on line 13 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\aboutUs.scss
 
-1: .aboutUs{
-2:     position: relative;
-3:     margin-top: 30px;
-4:     
-5:     .container{
-6:         background: $light_gray;
-7:         padding: 50px;
 8:         box-sizing: border-box;
-9: 
-10:         @media all and (max-width: 959px){
-11:             padding: 20px;
+9:         box-shadow: 3px 3px 9px rgba(0,0,0,0.15);
+10:         
+11:         @media all and (max-width: 959px){
+12:             padding: 20px;
+13:             background: $light_gray;
+14:             box-shadow: none;
+15:         }
+16:     }
+17: 
+18:     h1{
 
 Backtrace:
-C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\aboutUs.scss:6
+C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\aboutUs.scss:13
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:515:in `visit_media'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -73,4 +87,4 @@ C:/Ruby23-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$light_gray\".\A         on line 6 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\aboutUs.scss\A \A 1: .aboutUs{\A 2:     position: relative;\A 3:     margin-top: 30px;\A 4:     \A 5:     .container{\A 6:         background: $light_gray;\A 7:         padding: 50px;\A 8:         box-sizing: border-box;\A 9: \A 10:         @media all and (max-width: 959px){\A 11:             padding: 20px;"; }
+  content: "Error: Undefined variable: \"$light_gray\".\A         on line 13 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\aboutUs.scss\A \A 8:         box-sizing: border-box;\A 9:         box-shadow: 3px 3px 9px rgba(0,0,0,0.15);\A 10:         \A 11:         @media all and (max-width: 959px){\A 12:             padding: 20px;\A 13:             background: $light_gray;\A 14:             box-shadow: none;\A 15:         }\A 16:     }\A 17: \A 18:     h1{"; }
