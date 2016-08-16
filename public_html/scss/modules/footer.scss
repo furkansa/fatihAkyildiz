@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 16, 2016, 4:47:47 AM
+    Author     : fknsa
+*/
+
+footer{
+
+    background: $footer_bg;
+    border-top: 5px solid $body_top_border;
+
+    .footerInner{
+        height: 100%;
+
+        color: #888;
+        font-size: 75%;
+        font-weight: 500;
+        padding: 30px 0;
+
+
+        span{
+            font-weight: 700;
+        }
+        address{
+            float: left;
+            line-height: 250%;
+            font-weight: 600;
+            font-style: normal;
+
+            @media all and (max-width: 959px){
+                padding: 0 10px;;
+            }
+
+            i{
+                font-size: 160%;
+                margin-right: 5px;
+            }
+
+        }
+
+        img{
+            border-radius: 3px;
+            float: right;
+
+            @media all and (max-width: 959px){
+                max-width:100%;
+                height: auto;
+                margin-top: 10px;
+            }
+        }
+
+        .rights{
+            float: right;
+            padding: 0;
+            margin: 10px 0;
+            font-weight: 600;
+
+            @media all and (max-width: 959px){
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }  
+}

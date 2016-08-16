@@ -1,0 +1,47 @@
+.aboutUs{
+    position: relative;
+    margin-top: 30px;
+    
+    .container{
+        background: $light_gray;
+        padding: 50px;
+        box-sizing: border-box;
+
+        @media all and (max-width: 959px){
+            padding: 20px;
+        }
+    }
+
+    h1{
+        position: relative;
+        font-family: 'Playfair Display';
+        color: #777;
+        font-weight: 400;
+        font-size: 120%;
+        line-height: 160%;
+        text-align: center;
+        margin-bottom: 30px;
+
+        &:after{
+            content: '';
+            position: absolute;
+            bottom: -7px;
+            left: 40%;
+            width: 20%;
+            border-bottom: 1.5px solid #bbb;
+        }
+
+    }
+
+    p{
+        margin-top: 30px;
+        text-indent: 30px;
+        font-family: inherit;
+        font-weight: 300;
+        font-size: 95%;
+        line-height: 180%;
+        text-align: left;
+        color: #666;
+
+    }
+}

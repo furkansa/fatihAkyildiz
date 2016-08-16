@@ -1,28 +1,35 @@
 /*
-Error: Undefined variable: "$body_top_border".
-        on line 14 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainLayout.scss
+Error: Undefined variable: "$light_gray".
+        on line 6 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\aboutUs.scss
 
-9: *\/
-10: html,body{
-11:     margin: 0;
-12:     padding: 0;
-13:     min-height: 100%;
-14:     border-top: 3px solid $body_top_border;
-15:     font-size: 16px;
-16:     background: white;
-17:     font-family: 'Open Sans', sans-serif;
-18: }
-19: 
+1: .aboutUs{
+2:     position: relative;
+3:     margin-top: 30px;
+4:     
+5:     .container{
+6:         background: $light_gray;
+7:         padding: 50px;
+8:         box-sizing: border-box;
+9: 
+10:         @media all and (max-width: 959px){
+11:             padding: 20px;
 
 Backtrace:
-C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainLayout.scss:14
+C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\aboutUs.scss:6
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `_perform'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -66,4 +73,4 @@ C:/Ruby23-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$body_top_border\".\A         on line 14 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\mainLayout.scss\A \A 9: */\A 10: html,body{\A 11:     margin: 0;\A 12:     padding: 0;\A 13:     min-height: 100%;\A 14:     border-top: 3px solid $body_top_border;\A 15:     font-size: 16px;\A 16:     background: white;\A 17:     font-family: 'Open Sans', sans-serif;\A 18: }\A 19: "; }
+  content: "Error: Undefined variable: \"$light_gray\".\A         on line 6 of C:\Users\fknsa\OneDrive\Belgeler\NetBeansProjects\fatihAkyildiz\public_html\scss\modules\aboutUs.scss\A \A 1: .aboutUs{\A 2:     position: relative;\A 3:     margin-top: 30px;\A 4:     \A 5:     .container{\A 6:         background: $light_gray;\A 7:         padding: 50px;\A 8:         box-sizing: border-box;\A 9: \A 10:         @media all and (max-width: 959px){\A 11:             padding: 20px;"; }

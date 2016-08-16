@@ -9,13 +9,14 @@ and open the template in the editor.
 */
 
 .mainNav{
+    width: 100%;
     font-size: 75%;
     min-height: 80px;
     background-color: white;
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    padding: 35px 0;
+    padding: 35px 0 0 0;
     text-align: center;
 
     @media all and (max-width: 959px){
@@ -24,7 +25,6 @@ and open the template in the editor.
 
     .logo{
         width: 100%;
-        position: relative;
         top: 0px;
         background: url(../img/logo.png) no-repeat center;
         background-clip: scroll;
@@ -86,7 +86,7 @@ and open the template in the editor.
             }
 
             .dropDownMenu{
-                z-index: 999;
+                z-index: 99;
                 display: none;
                 position:absolute;
                 top:100%;
@@ -94,6 +94,7 @@ and open the template in the editor.
                 margin: 0;
                 padding: 0;
                 border: 1px solid $dark_gray;
+                background: white;
 
                 li:hover:after{
                     display: none;
@@ -176,8 +177,9 @@ and open the template in the editor.
 }
 
 .mobileMenuButton{
+    position:fixed;
     display: none;
-    z-index: 999;
+    z-index: 99;
     background: $body_top_border;
     border: none;
     padding: 10px 15px;
@@ -185,7 +187,7 @@ and open the template in the editor.
     font-weight: 600;
     top:100px;
     right: 15px;
-    position:fixed;
+
 
     &:hover{
         background: darken( $body_top_border , 15%);
@@ -209,7 +211,7 @@ and open the template in the editor.
     top: 0;
     left: 0;
     bottom: 0;
-    z-index: 1;
+    z-index: 99;
     right: 120px;
 
     font-size: 75%;
@@ -236,9 +238,9 @@ and open the template in the editor.
                 position:relative;
                 line-height: 350%;
                 padding: 0 25px;
-                
+
                 &:hover{
-                   background: darken($light_gray , 3%);
+                    background: darken($light_gray , 3%);
                 }
 
                 img{
@@ -248,7 +250,7 @@ and open the template in the editor.
             }
 
             .dropDownMenu{
-                z-index: 999;
+                z-index: 99;
                 display: none;
                 position:relative;
                 top:100%;
@@ -293,9 +295,6 @@ and open the template in the editor.
 
     }
 
-
-
-
 }
 
 ::-webkit-scrollbar 
@@ -319,5 +318,6 @@ and open the template in the editor.
     background: white;
     height:5px;
 }
+
 
 
