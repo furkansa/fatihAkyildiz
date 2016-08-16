@@ -5,9 +5,12 @@
  */
 //close NavMenu if clicked out of menu or button
 $('body').on("click touchend", function (e) {
-    if ($(window).width() < 960 && $('#mobileNav').is(':visible') === true && e.target.nodeName === "DIV") {
-        closeMobileNav();
+    if (e.target.nodeName === "DIV" || e.target.nodeName === "P" || e.target.nodeName === "H2" || e.target.nodeName === "FOOTER" || e.target.nodeName === "H1") {
+        if ($(window).width() < 960 && $('#mobileNav').is(':visible') === true) {
+            closeMobileNav();
+        }
     }
+
 });
 
 
