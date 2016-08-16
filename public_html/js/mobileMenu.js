@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 //close NavMenu if clicked out of menu or button
-$('body').on("click touchend", function (e) {
-    if (e.target.nodeName === "DIV" || e.target.nodeName === "P" || e.target.nodeName === "H2" || e.target.nodeName === "FOOTER" || e.target.nodeName === "H1") {
+$(document).on("click touchend", function (e) {
+    if (e.target.nodeName === "DIV" || e.target.nodeName === "P" || e.target.nodeName === "H2" || e.target.nodeName === "FOOTER" || e.target.nodeName === "H1" || e.target.nodeName === "HTML") {
         if ($(window).width() < 960 && $('#mobileNav').is(':visible') === true) {
             closeMobileNav();
         }
