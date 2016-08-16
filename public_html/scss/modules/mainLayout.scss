@@ -16,6 +16,7 @@ html,body{
     background: white;
     font-family: 'Open Sans', sans-serif;
     
+    overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 
@@ -58,7 +59,6 @@ footer{
 .container{
     width: 960px;
     margin: 0 auto;
-
     @media all and (max-width: 959px){
         width: 100%;
     }
@@ -82,8 +82,8 @@ footer{
 }
 
 .mobile-2{
-    float: left;
     width: 50%;
+    box-sizing: border-box;
 
     @media all and (max-width: 959px){
         width: 100%;
