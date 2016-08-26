@@ -46,7 +46,6 @@ html, body {
   font-size: 16px;
   background: white;
   font-family: 'Open Sans', sans-serif;
-  overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
   @media all and (max-width: 959px) {
@@ -63,6 +62,7 @@ html, body {
       height: 5px; } }
 
 .website {
+  overflow-x: none;
   min-height: 100%;
   position: relative; }
 
@@ -285,6 +285,9 @@ and open the template in the editor.
   .mobileNav ul {
     padding: 0;
     margin: 0; }
+    .mobileNav ul .active {
+      border-left: 4px solid #f70e0e;
+      background: #f2f2f2; }
     .mobileNav ul li {
       position: relative; }
       .mobileNav ul li a {

@@ -106,7 +106,7 @@ and open the template in the editor.
                     height: auto;
                 }
             }
-            
+
             .dropDownMenu{
                 z-index: 99;
                 display: none;
@@ -249,9 +249,16 @@ and open the template in the editor.
     overflow-y: scroll;
 
     ul{
+        .active{
+            border-left: 4px solid $body_top_border;
+            background: darken($light_gray , 3%);
+        }
+
         padding: 0;
         margin:0;
         li{
+
+
             position:relative;
             a{
                 color: $menu_black;

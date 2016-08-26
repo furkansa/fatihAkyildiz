@@ -15,8 +15,7 @@ html,body{
     font-size: 16px;
     background: white;
     font-family: 'Open Sans', sans-serif;
-    
-    overflow-x: hidden;
+
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 
@@ -46,6 +45,7 @@ html,body{
 }
 
 .website{
+    overflow-x: none;;
     min-height: 100%;
     position: relative;
 }
